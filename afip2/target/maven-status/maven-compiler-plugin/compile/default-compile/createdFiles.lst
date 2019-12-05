@@ -1,0 +1,6 @@
+com\cdainfo\afip2\dominio\Contribuyente.class
+com\cdainfo\afip2\repository\ImpuestoRepository.class
+com\cdainfo\afip2\controller\afipController.class
+com\cdainfo\afip2\repository\ContribuyenteRepository.class
+com\cdainfo\afip2\dominio\Impuesto.class
+com\cdainfo\afip2\Afip2Application.class

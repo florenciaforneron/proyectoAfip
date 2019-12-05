@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: com.cdainfo.afip2.Afip2ApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 6.071 s <<< FAILURE! - in com.cdainfo.afip2.Afip2ApplicationTests
+contextLoads  Time elapsed: 0.002 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'afipController': Unsatisfied dependency expressed through field 'impuestoRepository'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'impuestoRepository': Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Not a managed type: class com.cdainfo.afip2.dominio.Impuesto
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'impuestoRepository': Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Not a managed type: class com.cdainfo.afip2.dominio.Impuesto
+Caused by: java.lang.IllegalArgumentException: Not a managed type: class com.cdainfo.afip2.dominio.Impuesto
+
